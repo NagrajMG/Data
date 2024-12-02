@@ -48,7 +48,7 @@ class FABAttack():
             seed=0,
             targeted=False,
             device=None,
-            n_target_classes=9):
+            n_target_classes=1):
         """ FAB-attack implementation in pytorch """
 
         self.norm = norm
